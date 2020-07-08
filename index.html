@@ -1,3 +1,14 @@
+---
+headerImage: 2020-07-14-No30-oleksandrposhtaruk-small.png
+dateTime: "Tuesday, 14th July 2020, 6:00 PM CEST <small class=\"muted\">(7:00 PM OESZ)</small>"
+headline: "Angular Leipzig #29 – Online Meetup"
+meetupLink: "https://www.meetup.com/de-DE/Angular-Meetup-Leipzig/events/271416188/"
+# zoomId: ""
+youtubeLink: "https://www.youtube.com/watch?v=X7TAAdwkgFo"
+talkTitle: "RxJS unit testing in Angular applications – The big picture"
+talkSpeaker: "Oleksandr Poshtaruk"
+---
+
 <html>
     <head>
         <meta charset="utf-8">
@@ -29,22 +40,22 @@
 
 			<div class="row mt-5">
 				<div class="col-12 col-lg-6 text-center mb-4 mb-lg-0">
-					<img src="/assets/2020-06-09-No29-samvloeberghs-small.png" alt="Event banner" class="w-100">
+					<img src="/assets/{{ page.headerImage }}" alt="Event banner" class="w-100">
 				</div>
 
 				<div class="col-12 col-lg-6">
 					<h1 class="display-4">Welcome to ngLeipzig!</h1>
-					<p class="lead">Angular Leipzig #29 – Online Meetup</p>
+					<p class="lead">{{ page.headline }}</p>
 					<hr>
           <strong>Talk:</strong>
-          "Everything you should know about Scully – the static site generator for Angular" by Sam Vloeberghs
+          "{{ page.talkTitle }}" by {{ page.talkSpeaker }}
           <br>
           <br>
 					<p>
-						<strong>Tuesday, 9th June 2020, 6:00 PM CEST</strong>
+						<strong>{{ page.dateTime }}</strong>
 					</p>
 
-					Visit <a target="_blank" rel="noopener" href="https://www.meetup.com/de-DE/Angular-Meetup-Leipzig/events/270830045/">Meetup.com</a> for more information and to make a reservation (RSVP).
+					Visit <a target="_blank" rel="noopener" href="{{ page.meetupLink }}">Meetup.com</a> for more information and to make a reservation (RSVP).
 				</div>
 
 			</div>
@@ -69,7 +80,7 @@
                       <br>
                       <strong>The live stream starts<br>at 6:25 PM CEST.</strong>
                     </p>
-                    <a href="https://www.youtube.com/watch?v=ST1-c1AXDCg" class="btn btn-danger">Watch on YouTube</a>
+                    <a href="{{ page.youtubeLink }}" class="btn btn-danger">Watch on YouTube</a>
                   </div>
                 </div>
               </div>
@@ -81,13 +92,18 @@
                       <p class="card-text">
                           We recommend to <a href="https://zoom.us/download" target="_blank" rel="noopener">install the Zoom app</a>, so you're part of the scene! Get in touch with others, ask questions and support the meetup atmosphere.<br>
 						              <br>
-                          <strong>Meeting ID:</strong> 87966375463<!--<em>will be shared shortly before the event</em>-->
+                          <strong>Meeting ID:</strong> {% if page.zoomId %}{{ page.zoomId }}{% else %}<em>will be shared shortly before the event</em>{% endif %}
                           <br>
 
                           <br>
-                          <strong>The meeting password will be shared through the <a target="_blank" rel="noopener" href="https://www.meetup.com/de-DE/Angular-Meetup-Leipzig/events/270830045/">Meetup.com event</a> shortly before the meetup!</strong>
+                          <strong>The meeting password will be shared through the <a target="_blank" rel="noopener" href="{{ page.meetupLink }}">Meetup.com event</a> shortly before the meetup!</strong>
                       </p>
-                      <a href="https://zoom.us/j/87966375463" class="btn btn-primary" target="_blank" rel="noopener">Join via app</a>
+                      
+                      {% if page.zoomId %}
+                      <a href="https://zoom.us/j/{{ page.zoomId }}" class="btn btn-primary" target="_blank" rel="noopener">Join via app</a>
+                      {% else %}
+                      <button class="btn btn-primary" disabled>Join via app</button>
+                      {% endif %}
                     </div>
                   </div>
                 </div>
@@ -98,9 +114,13 @@
                       <p class="card-text">
                         If you can't install the Zoom app, you can join the meetup using the Zoom web client. You can ask questions in the chat. However, you will not be able to see all attendees at once.<br>
                         <br>
-                        <strong>The meeting password will be shared through the <a target="_blank" rel="noopener" href="https://www.meetup.com/de-DE/Angular-Meetup-Leipzig/events/270830045/">Meetup.com event</a> shortly before the meetup!</strong>
+                        <strong>The meeting password will be shared through the <a target="_blank" rel="noopener" href="{{ page.meetupLink }}">Meetup.com event</a> shortly before the meetup!</strong>
                       </p>
-                      <a href="https://zoom.us/wc/join/87966375463" class="btn btn-primary" target="_blank" rel="noopener">Join via web client</a>
+                      {% if page.zoomId %}
+                      <a href="https://zoom.us/wc/join/{{ page.zoomId }}" class="btn btn-primary" target="_blank" rel="noopener">Join via web client</a>
+                      {% else %}
+                      <button class="btn btn-primary" disabled>Join via web client</button>
+                      {% endif %}
                     </div>
                   </div>
                 </div>
