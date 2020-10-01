@@ -7,8 +7,8 @@ meetupLink: "https://www.meetup.com/de-DE/Angular-Meetup-Leipzig/events/27364007
 # zoomId: "87222514042"
 youtubeLink: "https://www.youtube.com/watch?v=lXFSOps_TSg"
 talks:
-  - title: "E2E Testing with Cypress in Monorepos with Nx"
-    speaker: "Mayra Rodríguez"
   - title: "Increase developer productivity by a factor of ‘n’ with Nx"
     speaker: "Zack DeRose"
+  - title: "E2E Testing with Cypress in Monorepos with Nx"
+    speaker: "Mayra Rodríguez"
 ---
