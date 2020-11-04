@@ -1,7 +1,7 @@
 ---
 layout: livepage
 headerImage: "2020-11-10-No34-janniklaswortmann-aliakseikuncevic-small.png"
-dateTime: "Tuesday, 10th November 2020, <strong>7:00 PM CEST</strong> ⚠️"# <small class=\"muted\">(9 AM MST / 11 AM COT)</small>"
+dateTime: "Tuesday, 10th November 2020, 7:00 PM CEST ⚠️"# <small class=\"muted\">(9 AM MST / 11 AM COT)</small>"
 headline: "Angular Leipzig #34 – Online Meetup"
 meetupLink: "https://www.meetup.com/de-DE/Angular-Meetup-Leipzig/events/274182285/"
 zoomId: "82618001022"
