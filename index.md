@@ -1,14 +1,14 @@
 ---
 layout: livepage
-headerImage: "2020-11-10-No34-janniklaswortmann-aliakseikuncevic-small.png"
-dateTime: "Tuesday, 10th November 2020, 7:00 PM CEST ⚠️"# <small class=\"muted\">(9 AM MST / 11 AM COT)</small>"
-headline: "Angular Leipzig #34 – Online Meetup"
-meetupLink: "https://www.meetup.com/de-DE/Angular-Meetup-Leipzig/events/274182285/"
-zoomId: "82618001022"
-youtubeLink: "https://www.youtube.com/watch?v=yGj3e3fiK8c"
+headerImage: "2021-01-08-N036-DaniloHoffmann-StefanBaumgartner-small.png"
+dateTime: "Tuesday, 12th January 2021, 7:00 PM CEST"# <small class=\"muted\">(9 AM MST / 11 AM COT)</small>"
+headline: "Angular Leipzig #36 – Online Meetup"
+meetupLink: "https://www.meetup.com/de-DE/Angular-Meetup-Leipzig/"
+zoomId: "83256934924"
+youtubeLink: "https://www.youtube.com/watch?v=mu5EyJSbdFE"
 talks:
-  - title: "Making the web a more reactive place with RxJS-Web"
-    speaker: "Jan-Niklas Wortmann"
-  - title: "Progressive State Management with NGXS"
-    speaker: "Aliaksei Kuncevič"
+  - title: "Facades – The best Layer of your Angular Application"
+    speaker: "Danilo Hoffmann"
+  - title: "Low Maintenance Type Development"
+    speaker: "Stefan Baumgartner"
 ---
