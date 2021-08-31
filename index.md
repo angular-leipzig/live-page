@@ -1,12 +1,12 @@
 ---
 layout: livepage
-headerImage: "2021-06-08-No40-amadousall-small.png"
-dateTime: "Tuesday, 8th June 2021, 7:00 PM CEST" # <small class=\"muted\">(8 PM EET / 1 PM EST)</small>"
-headline: "Angular Leipzig #40 – Online Meetup"
-meetupLink: "https://www.meetup.com/de-DE/Angular-Meetup-Leipzig/events/278567316/"
-zoomId: "84895521197"
-youtubeLink: "https://www.youtube.com/watch?v=phZ3N36yjoE"
+headerImage: "2021-09-14-No41-praveend-small.png"
+dateTime: "Tuesday, 14th September 2021, 7:00 PM CEST" # <small class=\"muted\">(8 PM EET / 1 PM EST)</small>"
+headline: "Angular Leipzig #41 – Online Meetup"
+meetupLink: "https://www.meetup.com/de-DE/Angular-Meetup-Leipzig/"
+zoomId: "81165194216"
+youtubeLink: "https://www.youtube.com/watch?v=97rTGkkCjj0"
 talks:
-  - title: "What's new in Angular"
-    speaker: "Amadou Sall"
+  - title: "Building GraphQL Backends for Angular Apps with Hasura"
+    speaker: "Praveen Durairaju"
 ---
